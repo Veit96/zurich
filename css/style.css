@@ -1,0 +1,28 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+main {
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+  width:90%;
+}
+
+.image {
+  margin-bottom: 32px;
+}
+
+img {
+  width: 640px;
+  height: auto;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 40px;
+}
