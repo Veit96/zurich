@@ -9,8 +9,7 @@ main {
 }
 
 .container {
-  margin: auto;
-  width:90%;
+  padding: 0 15%;
 }
 
 .image {
@@ -18,11 +17,26 @@ main {
 }
 
 img {
-  width: 640px;
-  height: auto;
+  width: 100%;
 }
 
 h1 {
-  font-size: 32px;
-  margin: 40px;
+  font-size: 48px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .image {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin: 40px 20px 40px 20px;
+  }
 }
